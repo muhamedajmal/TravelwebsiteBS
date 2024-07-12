@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>There you go!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/logo.avif">
+
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Josefin+Sans&family=Lexend:wght@500&family=Montserrat&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Teko:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" >
+        <div class="container">
+            <a class="navbar-brand" href="#" id="namemain">ThereYou<b>Go</b>.com</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#navbar">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contacts">Contact</a>
+              </li>
+              <li>
+                <!-- button -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="background-color: transparent; border: none;">
+                      <div class="container">
+                        <div class="screen">
+                          <div class="screen__content">
+                            <div class="wrapper" style="background-image: url(,);">
+                              <form action="#">
+                                <h2 style="color: white;">Login</h2>
+                                  <div class="input-field">
+                                  <input type="text" required>
+                                  <label>Enter your  email</label>
+                                </div>
+                                <div class="input-field">
+                                  <input type="password" required>
+                                  <label>Enter your password</label>
+                                </div>
+                                <div class="forget">
+                            
+                                  <a href="#">Forgot password?</a>
+                                </div>
+                                <button type="submit">Log In</button>
+                                <div class="register">
+                                  <p>or sign in using <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="" style="width: 40px; cursor: pointer;"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="" style="width: 25px; cursor: pointer;"></p>
+                                </div>
+                              </form>
+                            </div>
+                            <!-- <div class="social-login">
+                              <h3>log in via</h3>
+                              <div class="social-icons">
+                                <a href="#" class="social-login__icon fab fa-instagram"></a>
+                                <a href="#" class="social-login__icon fab fa-facebook"></a>
+                                <a href="#" class="social-login__icon fab fa-twitter"></a>
+                              </div>
+                            </div> -->
+                          </div>
+                          <div class="screen__background">
+                            <!-- <span class="screen__background__shape screen__background__shape4"></span>
+                            <span class="screen__background__shape screen__background__shape3"></span>		
+                            <span class="screen__background__shape screen__background__shape2"></span>
+                            <span class="screen__background__shape screen__background__shape1"></span> -->
+                            <!-- <img src="./images/mod1.jpg" alt="" style="width: 100%; filter: brightness(0.5); height: auto;"> -->
+                          </div>		
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                  </div>
+                </div>
+                <a class="btn btn-light" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sign in</a>
+      </nav>
+
+      <!-- SEARCH -->
+
+<div class="search">
+        <center>
+            <div class="heading">
+            <h2>Hola!!</h2>
+            <h1 ><b style="font-size: 5rem;">Planning for a trip?</b></h1>
+            <h2>we've got your back!</h2>
+        </div>
+        <div class="input-group rounded bg-black" id="searchbox">
+          <input type="search" class="form-control rounded bg-light" placeholder="Search for locations" aria-label="Search" aria-describedby="search-addon" />
+          <span class="input-group-text border-0 bg-transparent text-white" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+    </div>
+    
+        </center>
+     <!-- background cerousel  -->
+     <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image bg-img-1 active">
+            <!-- <img src="./images/b1.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption d-none d-md-block">
+              <p>Australia</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-2">
+            <!-- <img src="./images/b4.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption d-none d-md-block">
+              <p>Italy</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-3">
+            <!-- <img src="./images/b3.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption d-none d-md-block">
+              <p>Goa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="form">
+          
+        </div>
+      </section>
+
+  <!-- ABOUT US -->
+    <div class="aboutus p-3" style="background-image: url(./images/back.jpg);width: 100;" id="about">
+      <h1 class="text-center  fw-5" style="color: rgb(255, 255, 255);"><b>About Us</b></h1>
+      <div class="container-xxl py-5 mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" style="min-height: 400px;">
+              <div class="position-relative h-100">
+                <!-- <img src="./images/Ab1.jpg" alt="img" id="abimg" style="object-fit: cover;" class="img-fluid position-absolute w-100 h-100"> -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" style="border-radius: 20px;">
+                    <div class="carousel-item active">
+                      <img src="./images/ac2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/munnar 1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/Ab1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="mb-4 mt-3" style="color: white;">Welcome to <span><b style="color: green;">ThereYouGo.com</b></span> </h1>
+              <p class="text-start" style="color: rgb(255, 255, 255); font-size: 15px;">
+                <b>
+                  Discover the world with Wanderlust Travels. We create personalized, unforgettable experiences, from beach escapes to mountain adventures. Enjoy exceptional service and exclusive access to hidden gems.
+                </b>
+              </p>
+              <p class="text-start" style="color: rgb(255, 255, 255); font-size: 15px;">
+                <b>With a global network and local guides, we provide access to iconic landmarks and unique treasures. Choose Wanderlust Travels for seamless, exciting journeys and lasting memories.</b>
+              </p>
+              <p class="my-1" style="color: rgb(255, 255, 255);"><b>We Offer:</b></p>
+              <ul class="d-flex p-0" id="ablist" style="list-style-type:none;">
+                <li class="mx-1"><i class="fa-solid fa-phone" style="color: green;"></i><b>24x7 customer care</b></li>
+                <li class="mx-1"><i class="fa-regular fa-face-smile" style="color: green;"></i><b>Travel Insurance</b></li>
+                <li class="mx-1"><i class="fa-solid fa-pencil" style="color: kgreen;"></i><b>Customised Packages</b></li>
+              </ul>
+              <button id="ourservice" class="m-2"><a href="#" id="ourlink">Our Services</a></button>
+              <button id="ourservice" class="m-2"><a href="#" id="ourlink">book an appoinmet</a></button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    
+    </div>
+<!-- Tell us about your trip -->
+
+<div class="container-xxl py-3 mt-5 w-100">
+  <div class="container-fluid p-3" style="background-image: url(./images/rb11.jpg); background-repeat: no-repeat;background-size:cover; border-radius: 20px; ">
+    <div class="row mt-2">
+      <div class="col-12">
+        <h1 class="text-center" style="font-weight: 900; color: rgb(255, 255, 255);">Tell us more about your Trip!!</h1>
+        <h4 class="text-center" style="color: white;">We have some cool packages for you!</h4>
+      </div>
+    </div>
+    <form class="form-inline m-1" action="/action_page.php">
+      <label for="text" style="color: white;">Destinaton:</label>
+      <input type="text" id="Destination" name="destination"style="border-radius: 10px; color: green; font-size: smaller;">
+      <label for="nop" style="color: white;">Number of pax:</label>
+      <input type="numer" id="nop" name="nop"style="border-radius: 10px; color: green; font-size: smaller;">
+      <label for="sdate" style="color: white;">Start date:</label>
+      <input type="date" id="sdate" name="start date"style="border-radius: 10px; color: green; font-size: smaller;">
+      <label for="edate" style="color: white;">End date:</label>
+      <input type="date" id="edate" name="end date" style="border-radius: 10px; color: green; font-size: smaller;">
+    </form>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-2"><button id="submit">Show Packages</button></div>
+      <div class="col-md-5"></div>
+    </div>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- PACKAGES -->
+<h1 class="text-center mt-5"><i class="fa-solid fa-grip-lines" style="color: green;" id="packages"></i>  <b>Our Best Packages</b>  <i class="fa-solid fa-grip-lines" style="color: green;"></i></h1>
+
+<!-- Card -->
+<div class="row w-100 ps-2 ms-2" id="cardrow">
+  <div class="col-md-2">
+    <div class="rows p-3  mt-5  d-flex" id="packagerow" >
+      <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+        <img src="./images/bali.png" alt="" class="card-img">
+        <div class="card-body p-4">
+          <h2 class="card-title mt-1 pt-3" style="color: white; font-size: 1rem;"><b>Bali.</b></h2>
+          <p class="card-desc mt-3" style="color: white; font-size: 10px;">Bali, the "Island of the Gods," is a tropical paradise renowned for its beautiful beaches, vibrant culture, and lush landscapes.</p>
+          <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+          <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+          <h3 class="price mt-2" style="color: white;"><b>$1299</b></h3>
+          <button class="card-btn px-2 py-1" style="background-color: white; color: black; border-radius: 20px; border: 0px;font-size: 12px;">Check out</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+  <div class="col-md-2">
+    <div class="rows p-3 mt-5 d-flex" id="packagerow" >
+      <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+        <img src="./images/taj mahal.jpg" alt="" class="card-img">
+        <div class="card-body p-4">
+          <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>Taj Mahal.</b></h2>
+          <p class="card-desc mt-3" style="color: white;font-size: 10px;">There may not be enough adjectives and synonyms to describe the Taj Mahal in Agra Ethereal, majestic, grand, imposing, statuesque, beautiful, stunning.</p>
+          <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+          <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+          <h3 class="price mt-2" style="color: white;"><b>$899</b></h3>
+          <button class="card-btn px-2 py-1" style="font-size: 12px; background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- card 3 -->
+    <div class="col-md-2">
+      <div class="rows p-3 mt-5 d-flex" id="packagerow" >
+        <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+          <img src="./images/italy.jpg" alt="" class="card-img">
+          <div class="card-body p-4">
+            <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>Italy.</b></h2>
+            <p class="card-desc mt-3" style="color: white;font-size: 10px;">Italy is a European country known for its rich history, art, culture, and cuisine, featuring iconic landmarks such as the Colosseum,and the canals of Venice.</p>
+            <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+            <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+            <h3 class="price mt-2" style="color: white;"><b>$1899</b></h3>
+            <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- card 4 -->
+        <div class="col-md-2">
+          <div class="rows p-3 mt-5 d-flex" id="packagerow" >
+            <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+              <img src="./images/Goa1.jpg" alt="" class="card-img">
+              <div class="card-body p-4">
+                <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>Goa.</b></h2>
+                <p class="card-desc mt-3" style="color: white;font-size: 10px;">Goa is a coastal state in India renowned for its stunning beaches, vibrant nightlife, Portuguese heritage, and relaxed atmosphere.</p>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+                <h3 class="price mt-2" style="color: white;"><b>$699</b></h3>
+                <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- card 5 -->
+         <div class="col-md-2">
+          <div class="rows p-3 mt-5 d-flex" id="packagerow" >
+            <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+              <img src="./images/mp1.jpg" alt="" class="card-img">
+              <div class="card-body p-4">
+                <h4 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>Machu picchu.</b></h4>
+                <p class="card-desc mt-3" style="color: white;font-size: 10px;">Machu Picchu was built in the classical Inca style, with polished dry-stone walls. Its three primary structures are the Temple of the Sun, and the Intihuatana.</p>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+                <h3 class="price mt-2" style="color: white;"><b>$2699</b></h3>
+                <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- card 6 -->
+         <div class="col-md-2">
+          <div class="rows p-3 mt-5 d-flex" id="packagerow" >
+            <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+              <img src="./images/rio1.jpg" alt="" class="card-img">
+              <div class="card-body p-4">
+                <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>rio de janeiro.</b></h2>
+                <p class="card-desc mt-3" style="color: white;font-size: 10px;"> In the southeastern part of the tropical zone of South America, and is widely recognized as one of the world's most beautiful and interesting urban centres.</p>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+                <h3 class="price mt-2" style="color: white;"><b>$1999</b></h3>
+                <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn" style="width: 100%;" >
+          <button id="btn-show" class="text-center py-1 px-2" style="width: 150px; align-items: center; border-radius: 20px; background-color: green;border: none; color: white;">Show more</button>
+        </div>
+         <!-- <div class="col-sm-2">
+          <div class="rows p-3 mt-3 d-flex" id="packagerow" >
+            <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+              <img src="./images/china1.jpg" alt="" class="card-img">
+              <div class="card-body p-4">
+                <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>china.</b></h2>
+                <p class="card-desc mt-3" style="color: white;font-size: 10px;">China is a country in East Asia bordering the East China Sea, Korea Bay, and the South China Sea</p>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+                <h3 class="price mt-2" style="color: white;"><b>$1499</b></h3>
+                <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-2">
+          <div class="rows p-3 mt-3 d-flex" id="packagerow" >
+            <div class="card" style="box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.266); border: solid 0px;">
+              <img src="./images/kashmir1.jpg" alt="" class="card-img">
+              <div class="card-body p-4">
+                <h2 class="card-title mt-3 pt-1" style="color: white; font-size: 1rem;"><b>kashmir.</b></h2>
+                <p class="card-desc mt-3" style="color: white;font-size: 10px;">Kashmir, a piece of heaven on earth, it is located mostly all in the Himalayan mountains. It is also the only state in India with a Muslim-majority population.</p>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-user" style="color: #74C0FC;"></i> 2 person</span>
+                <span style="color: white;font-size: 12px;"><i class="fa-solid fa-calendar-days" style="color: #74C0FC;"></i> 3 Days</span>
+                <h3 class="price mt-2" style="color: white;"><b>$699</b></h3>
+                <button class="card-btn px-2 py-1" style="font-size: 12px;background-color: white; color: black; border-radius: 20px; border: 0px;">Check out</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+<!-- our services -->
+<h2 class="text-center mt-5"><i class="fa-solid fa-grip-lines" style="color: green;"></i>  <b>Our Services</b>  <i class="fa-solid fa-grip-lines" style="color: green;"></i></h2>
+  <div class="row p-5" style="justify-content: center; align-items: center; margin-left: 70px; margin-right: 70px;" id="servicerow">
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: rgb(255, 255, 255); border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/adv.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name" >
+          <p><b>Adventure</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: white; border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/map.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name" >
+          <p><b>Tour Guide</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: rgb(255, 255, 255); border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/camp.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name">
+          <p><b>Camping</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: rgb(255, 255, 255); border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/hike.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name">
+          <p><b>Trekking</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: rgb(255, 255, 255); border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/offf.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name">
+          <p><b>Off-roading</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-xs-6 p-3" id="cardcol">
+      <div class="card" style="width: 150px; height: 150px; background-color: rgb(255, 255, 255); border: solid 0px green; border-radius: 10px; align-items: center; color: green;">
+        <img src="./images/icons/fire.png" alt="" style="width: 120px; height: auto;">
+        <div class="card-name" >
+          <p><b>Campfire</b></p>
+        </div>
+      </div>
+    </div>   
+  </div>
+
+  
+
+
+ <!-- offers -->
+
+ <!-- Destination Start -->
+ <div class="container-xxl py-5 destination">
+  <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center px-3"><i class="fa-solid fa-grip-lines" style="color: green;"></i><b>Limited period offers!</b><i class="fa-solid fa-grip-lines" style="color: green;"></i></h6>
+          <h1 class="mb-5"><b style="color: green;">book your slots now!</b></h1>
+      </div>
+      <div class="row g-3">
+          <div class="col-lg-7 col-md-6">
+              <div class="row g-3">
+                  <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                      <a class="position-relative d-block overflow-hidden" href="">
+                          <img class="img-fluid" src="./images/b3.jpg" alt="">
+                          <div class="bg-white text-success fw-bold position-absolute top-0 start-0 m-3 py-1 px-2" style="border-radius: 10px;">30% OFF</div>
+                          <div class=" text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 10px;">Munnar</div>
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                      <a class="position-relative d-block overflow-hidden" href="">
+                          <img class="img-fluid" src="./images/forkashmir 1.jpg" alt="">
+                          <div class="bg-white text-success fw-bold position-absolute top-0 start-0 m-3 py-1 px-2" style="border-radius: 10px;">25% OFF</div>
+                          <div class=" text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 10px;">Kashmir</div>
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                      <a class="position-relative d-block overflow-hidden" href="">
+                          <img class="img-fluid" src="./images/b4.jpg" alt="">
+                          <div class="bg-white text-success fw-bold position-absolute top-0 start-0 m-3 py-1 px-2" style="border-radius: 10px;">35% OFF</div>
+                          <div class=" text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 10px;">Tawang</div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+              <a class="position-relative d-block h-100 overflow-hidden" href="">
+                  <img class="img-fluid position-absolute w-100 h-100" src="./images/china.jpg" alt="" style="object-fit: cover;">
+                  <div class="bg-white text-success fw-bold position-absolute top-0 start-0 m-3 py-1 px-2" style="border-radius: 10px;">20% OFF</div>
+                  <div class=" text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 10px;">China</div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- accordion -->
+
+<h1 class="text-center mt-5"><i class="fa-solid fa-grip-lines" style="color: green;"></i>  <b>what our clients say!</b>  <i class="fa-solid fa-grip-lines" style="color: green;"></i></h1>
+
+<div class="accordion accordion-flush mt-5" id="accordionFlushExample" style="margin-left: 25%; width: 50%;">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <div class="row" style="align-items: center; width: 100%;">
+          <div class="col-lg-12">
+            <center>
+              <img src="./images/people/lady 2.jpg" alt="" style="width: 100px; border-radius: 50%;">
+              <p class="mt-2"><h5><b>Lana Lodge</b></h5></p>
+            </center>
+          </div>
+        </div>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center">
+        <img src="./images/people/rating 4.png" alt="" style="width: 150px;">
+        <p>
+          <i class="fa-solid fa-quote-left"></i>
+          Just wanted to let you know that the trip was fantastic and everything worked out seamlessly! The hotels and the tours you recommended were excellent! Hotel locations in particular were ideal. Alessio came through as promised with the Christmas Eve mass tickets, and that experience was very special for us. Also, the Trip Plan app made things very easy for us. It was nice that we could all check out the daily plan at any time, and be able to pull up all the vouchers and tickets.
+          <i class="fa-solid fa-quote-right"></i>
+          <div>
+            <i class="fa-brands fa-facebook p-2" ></i>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-linkedin p-2"></i>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <div class="row" style="align-items: center; width: 100%;">
+          <div class="col-lg-12">
+            <center>
+              <img src="./images/people/group 1.jpg" alt="" style="width: 100px; border-radius: 50%;">
+              <p class="mt-2"><h5><b>Jacob & Friends</b></h5></p>
+            </center>
+          </div>
+        </div>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center">
+        <img src="./images/people/rating 4.png" alt="" style="width: 150px;">
+        <p>
+          <i class="fa-solid fa-quote-left"></i>
+          We had a wonderful time! I highly recommend the Resort at Longboat Key & the area. It was perfect for not being crowded on the beach w/ Covid concerns. The beach is for guests only & beautiful!....Thanks so much for finding the perfect spot for us for spring break :)
+          <i class="fa-solid fa-quote-right"></i>
+          <div>
+            <i class="fa-brands fa-facebook p-2" ></i>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-linkedin p-2"></i>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        <div class="row" style="align-items: center; width: 100%;">
+          <div class="col-lg-12">
+            <center>
+              <img src="./images/people/man 2.jpg" alt="" style="width: 100px; border-radius: 50%;">
+              <p class="mt-2"><h5><b>Arthur Jones</b></h5></p>
+            </center>
+          </div>
+        </div>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center">
+        <img src="./images/people/rating 4.png" alt="" style="width: 150px;">
+        <p>
+          <i class="fa-solid fa-quote-left"></i>
+          thank you so much for a well organized trip. We had a wonderful time. Hard to believe it's already done and past. Weather was awesome, the hotels were nice, thank you for everything!
+          <i class="fa-solid fa-quote-right"></i>
+          <div>
+            <i class="fa-brands fa-facebook p-2" ></i>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-linkedin p-2"></i>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="btn" style="width: 100%;" >
+  <button id="btn-show" class="text-center py-1 px-2" style="width: 150px; align-items: center; border-radius: 20px; background-color: green;border: none; color: white;">Show more</button>
+</div> -->
+
+  <!-- Button trigger modal -->
+  <div class="row text-center mt-5">
+    <div class="col-12">
+       <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Frequently Asked Questions
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">FAQ.</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+              <p><b>1)How do I manage my booking?</b> <br><br>
+                You can manage your booking online. You’ll need your email and booking number to log in.
+                If you booked the trip for others as well, you’ll need to manage their booking for them, or they can ask us to manage details relevant to them only.</p><br>
+             <p><b>2)Why do you take full payment?</b><br><br>
+                  The reason we request full payment for some trips is because we need to confirm each part of your adventure with our local operators and suppliers as we go (e.g. on-tour transport, activities and accommodation). If your place on the trip is unavailable, we’ll provide you with a full refund.</p>
+              <p><b>3)Where do I find my Essential Trip Information?</b><br><br>
+                Every trip has a set of Essential Trip Information that gives you in-depth information about all aspects of your trip. To access your Essential Trip Information, please visit your trip’s specific page on our website. The Essential Trip Information is accessible at the top of this page.</p>
+                <br><br>
+
+                <center><b>Contact us for more queries</b></center>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+   <!-- Footer Start -->
+   <div class="container-fluid text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background-image: linear-gradient(green,darkgreen);">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Company</h4>
+                <a class="btn btn-link" href="" style="text-decoration: none;">About Us</a>
+                <a class="btn btn-link" href="" style="text-decoration: none;">Contact Us</a>
+                <a class="btn btn-link" href="" style="text-decoration: none;">Privacy Policy</a>
+                <a class="btn btn-link" href="" style="text-decoration: none;">Terms & Condition</a>
+                <a class="btn btn-link" href="" style="text-decoration: none;">FAQs & Help</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3" id="contacts">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Gallery</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/ab1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/Abimg.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/bb1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/ac1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/ac2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./images/bb2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-dark w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-dark py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#" style="text-decoration: none;">thereyougo.com</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="#navbar" style="text-decoration: none;">Home</a>
+                        <a href="" style="text-decoration: none;">Cookies</a>
+                        <a href="" style="text-decoration: none;">Help</a>
+                        <a href="" style="text-decoration: none;">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- action button -->
+<div class="fab-container">
+  <div class="fab fab-icon-holder">
+    <i class="fa fa-plus" id="fab"></i>
+  </div>
+
+  <ul class="fab-options">
+    <li>
+      <div class="fab-icon-holder">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </li>
+    <li>
+      <div class="fab-icon-holder" style="background-image: linear-gradient(rgb(117, 23, 117),rgb(255, 166, 0));">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </li>
+    <li>
+      <div class="fab-icon-holder" style="background-image: linear-gradient(black,grey);">
+        <i class="fa-brands fa-x"></i>
+      </div>
+    </li>
+    <li>
+      <div class="fab-icon-holder">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </li>
+  </ul>
+</div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</body>
+</html>

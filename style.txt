@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logoimg{
+    width: 150px;
+    margin-bottom: 10px;
+}
+#carouselExampleFade{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(.4);
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+    margin-top: 35px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    justify-content: space-between;
+    padding-left: 10px;
+    border-radius: 20px;
+    position: absolute;
+}
+.search{
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin-top: 150px;
+
+}
+#namemain{
+    font-size: 30px;
+    left: 20px;
+}
+/* #navbarNav{
+    position: absolute;
+    left: 1200px;
+} */
+.heading{
+    margin-top: 100px;
+    color: white;
+
+}
+#searchbox{
+    width: 400px;
+    margin-top: 30px;
+}
+/* .row1{
+    margin-top: 0px;
+    padding: 0px;
+    height: 500px;
+    color: white;
+    width: 100%;
+    position: absolute; */
+    /* background-image: url('./images/rb1.jpg') ; */
+/* }
+#rowimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+    filter: brightness(.5);
+}
+.cards{
+    border: 0px solid;
+    border-radius: 20px;
+    width: 200px;
+    margin: 30px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+#cardimg{
+    border-radius: 20px;
+    width: 250px;
+}
+#location{
+    margin-top: 40px;
+    color: darkgreen;
+}
+.locitems{
+    display: column;
+}
+.card{
+    margin-top: px;
+    display: flex;
+
+} */
+/* left right cards */
+/* .container{
+    width: 100%;
+    height: auto;
+    margin: 40px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.container .col{
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    
+}
+.container .col:hover{
+    border: 0px solid darkgreen;
+    padding: 5px;
+    background-color: rgb(60, 120, 75);
+    border-radius: 20px;
+}
+.rowcont{
+    display: flex;
+    width: 100%;
+    margin-top: 600px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.colcont-right{
+    width: 50%;
+}
+.colcont-right img{
+    width: 100%;
+}
+.colcont-left{
+    width: 50%;
+    margin-left: 20px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.colcont-left h1{
+    font-size: 90px;
+    align-items: center;
+    color: darkgreen;
+}
+.colcont-left button{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.colcont-left button a{
+    text-decoration: none;
+    color: darkgreen;
+} */
+/* right alighn */
+/* .rowcont1{
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.colcont1-left{
+    width: 50%;
+}
+.colcont1-right{
+    width: 50%;
+    margin-left: 20px;
+    height: 400px;
+}
+.colcont1-right h1{
+    font-size: 90px;
+    align-items: end;
+    color: rgb(47, 123, 181);
+}
+.colcont1-right button{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.colcont1-right button a{
+    text-decoration: none;
+    color: rgb(47, 123, 181);
+}
+#moreimgk{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#moreimgk a{
+    text-decoration: none;
+    color: rgb(47, 123, 181);
+} */
+/* image gallery */
+/* .grid-gallery{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+}
+.grid-gallery .grid-item{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+.grid-gallery .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.grid-gallery .grid-item img:hover{
+    transform: scale(1.1);
+}
+#moreimg{
+        border: 0px;
+        border-radius: 20px;
+        padding: 10px;
+}
+#moreimg a{
+        text-decoration: none;
+        color: darkgreen;
+    } */
+/* image gallery ends */
+/* things to do */
+/* .tdrow{
+    width: 100%;
+    height: 670px; */
+    /* background-color: darkgreen; */
+    /* border: 20px solid white;
+    border-radius: 50px;
+}
+.tdcol{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.tdcol .card{
+    margin: 30px;
+    border-radius: 20px;
+    border: 0px solid darkgreen;
+    background-image: url('https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99571.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703548800&semt=ais');
+}
+.tdcol .card:hover{
+    transform: scale(1.01);
+}
+.tdcol .card img{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+.tdcol .card .card-body p{
+    height: 180px;
+}
+.tdcol .card .card-body .card-title{
+    height: 50px;
+} */
+/* td foe kashmir */
+/* .tdrow1{
+    width: 100%;
+    height: 670px; */
+    /* background-color: rgb(47, 123, 181); */
+    /* border: 20px solid white;
+    border-radius: 50px;
+}
+.tdcol1{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.tdcol1 .card{
+    margin: 30px;
+    border-radius: 20px;
+    border: 0px solid darkgreen;
+    background-image: url('https://images.unsplash.com/photo-1523997596732-56d0ebb8eacf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWUlMjBzbm93fGVufDB8fDB8fHww');
+}
+.tdcol1 .card:hover{
+    transform: scale(1.01);
+}
+.tdcol1 .card img{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+.tdcol1 .card .card-body p{
+    height: 180px;
+}
+.tdcol1 .card .card-body .card-title{
+    height: 50px;
+} */
+/* Manali */
+
+/* .rowcont2{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.colcont2-right{
+    width: 50%;
+}
+.colcont2-right img{
+    width: 100%;
+}
+.colcont2-left{
+    width: 50%;
+    margin-left: 20px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.colcont2-left h1{
+    font-size: 90px;
+    align-items: center;
+    color: indigo;
+}
+.colcont2-left button{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.colcont2-left button a{
+    text-decoration: none;
+    color: indigo;
+} */
+/* td for manali */
+/* .tdrow2{
+    width: 100%;
+    height: 670px; */
+    /* background-color: indigo; */
+    /* border: 20px solid white;
+    border-radius: 50px;
+}
+.tdcol2{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.tdcol2 .card{
+    margin: 30px;
+    border-radius: 20px;
+    border: 0px solid indigo;
+    background-image: url('https://wallpapers.com/images/hd/indigo-9qwi72vkil54eu9x.jpg');
+}
+.tdcol2 .card:hover{
+    transform: scale(1.01);
+}
+.tdcol2 .card img{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+.tdcol2 .card .card-body p{
+    height: 180px;
+}
+.tdcol2 .card .card-body .card-title{
+    height: 50px;
+}
+#moreimgm{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#moreimgm a{
+    text-decoration: none;
+    color: indigo;
+} */

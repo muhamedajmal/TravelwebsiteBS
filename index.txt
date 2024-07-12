@@ -1,0 +1,288 @@
+    <section>
+      <div class="row1">
+        <!-- <img src="./images/rb2.jpg" alt="" id="rowimg"> -->
+        <!-- <center><h1 id="location"><b>Our Locations</b></h1></center>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href="#bali"><img src="./images/bali 5.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+                <h6><center>Bali</center></h6>
+              </div>
+              <div class="col">
+                <a href="#kashmir"><img src="./images/kashmir 2.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+                <center><h6>Kashmir</h6></center>
+              </div>
+              <div class="col">
+                <a href="#manali"><img src="./images/manali 3.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+                <center><h6>Manali</h6></center>
+              </div> -->
+              <!-- <div class="col">
+                <a href="#"><img src="./images/italy 4.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+                <center><h6>Italy</h6></center>
+              </div> -->
+            </div>
+          </div>
+          <!-- cards -->
+          <!-- <div class="cards" style="width: 15rem; border: 0;">
+            <a href="#"><img src="./images/bali 5.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+            <div><center><h5 class="iconname bg-transparent">bali</h5>
+        </div>
+        <div class="cards" style="width: 15rem; border: 0;">
+              <a href="#"><img src="./images/bali 5.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+              <div><center><h5 class="iconname bg-transparent">bali</h5>
+        </div>
+        <div class="cards" style="width: 15rem; border: 0;">
+          <a href="#"><img src="./images/bali 5.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+          <div><center><h5 class="iconname bg-transparent">bali</h5>
+    </div>
+    <div class="cards" style="width: 15rem; border: 0;">
+      <a href="#"><img src="./images/bali 5.jpg" class="card-img-top" alt="..." id="cardimg" ></a>
+      <div><center><h5 class="iconname bg-transparent">bali</h5>
+</div> -->
+      <!-- </div>
+    </section> -->
+    <!-- bali -->
+    <!-- <section>
+      <div class="rowcont">
+        <div class="colcont-left">
+          <h1 id="bali">Bali.</h1>
+          <p>An exotic tropical destination that flaunts scenic beaches and mountains, Bali is deep-rooted in culture and tradition, which adds to the charm of this scenic island.</p>
+          <p>Bali is the only Hindu-majority province in Indonesia, with 86.9% of the population adhering to Balinese Hinduism. It is renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.</p>
+          <button><a href="https://www.makemytrip.com/tripideas/places/bali" target="_blank">explore more</a></button>
+          <button><a href="https://www.makemytrip.com/holidays-international/bali-tourism-packages.html?gclid=Cj0KCQiAkKqsBhC3ARIsAEEjuJgGP-NNTQPrhk4y91Z3-OvcdtPuEUP4nQ7xgk2Fwnu5tVEdCAOvKVgaAqfVEALw_wcB&cmp=SEM|D|Holiday|G|Generic|OBT_India_Bali_Desktop|Non_Brand_Bali_Desktop|ETA|Regular|667122355850&s_kwcid=AL!1631!3!667122355850!p!!g!!bali%20packages&ef_id=Cj0KCQiAkKqsBhC3ARIsAEEjuJgGP-NNTQPrhk4y91Z3-OvcdtPuEUP4nQ7xgk2Fwnu5tVEdCAOvKVgaAqfVEALw_wcB:G:s&gad_source=1" target="_blank">find packages</a></button>
+        </div>
+        <div class="colcont-right">
+          <div class="grid-gallery">
+            <div class="grid-item">
+              <a href="./images/forbali 1.jpg">
+                <img src="./images/forbali 1.jpg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="./images/forbali 2.jpg">
+                <img src="./images/forbali 2.jpg" alt="">
+              </a> -->
+            <!-- </div>  <div class="grid-item">
+              <a href="./images/forbali 3.webp">
+                <img src="./images/forbali 3.webp" alt="">
+              </a>
+            </div>  <div class="grid-item">
+              <a href="./images/forbali 4.jpg">
+                <img src="./images/forbali 4.jpg" alt="">
+              </a> -->
+            <!-- </div>  <div class="grid-item">
+              <a href="./images/bali 2.jpg">
+                <img src="./images/bali 2.jpg" alt="">
+              </a>
+            </div>  <div class="grid-item">
+              <a href="./images/forbali 6.jpg">
+                <img src="./images/forbali 6.jpg" alt="">
+              </a>
+            </div>
+          </div>    
+          <center><button id="moreimg"><a href="https://www.makemytrip.com/tripideas/places/bali" target="_blank">more images</a></button></center>      
+        </div>
+      </div>
+      <center><h2 style="color: darkgreen;">things to do in <b>Bali</b></h2></center>
+      <div class="tdrow">
+        <div class="tdcol">
+          <div class="card" style="width: 25rem;">
+            <img src="https://hblimg.mmtcdn.com/content/hubble/img/bali/mmt/activities/t_ufs/m_activities_bali_tegallalang_rice_terraces_l_400_640.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Visit Tegallalang Rice Terraces</h5>
+              <p class="card-text">The Tegallalang rice terraces are tiered paddy fields along the hills of Ubud that offer insights into the cultivation of rice by local villagers.</p>
+              <a href="https://www.makemytrip.com/tripideas/attractions/visit-tegallalang-rice-terraces" class="btn btn-success">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://hblimg.mmtcdn.com/content/hubble/img/bali/mmt/activities/t_ufs/m_Ancient%20Temples_9_l_429_644.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Explore the Ancient Temples</h5>
+              <p class="card-text">Bali is dotted with several ancient Hindu temples that include Uluwatu Temple, Besakih Temple, Goa Gajah and Tamun Ayun Temple, that flaunt traditional Balinese architecture.</p>
+              <a href="https://www.makemytrip.com/tripideas/attractions/explore-the-ancient-temples" class="btn btn-success">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://hblimg.mmtcdn.com/content/hubble/img/bali/mmt/activities/t_ufs/m_activities_bali_mount_batur_l_400_640.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Climbing Mount Batur</h5>
+              <p class="card-text">Located in the Bangli region, Mount Batur stands at a height of 1,717 metres and is a popular trekking route during sunrise, owing to the spectacular views.</p>
+              <a href="https://www.makemytrip.com/tripideas/attractions/climbing-mount-batur" class="btn btn-success">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://hblimg.mmtcdn.com/content/hubble/img/AdditionalTtdImage/mmt/activities/t_ufs/m_Safari_Marine_Park_Bali_1_l_427_640.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bali Safari Marine Park</h5>
+              <p class="card-text">Bali Safari Marine Park is a popular tourist attraction located in Gianyar, Bali. The park offers a unique opportunity to get up close and personal with some of the world's most exotic animals in their natural habitat.</p>
+              <a href="https://www.makemytrip.com/tripideas/attractions/bali-safari-marine-park" class="btn btn-success">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Kashmir -->
+    <!-- right align -->
+    <!-- <section>
+      <div class="rowcont1">
+        <div class="colcont1-left">
+          <div class="grid-gallery">
+            <div class="grid-item">
+              <a href="./images/forkashmir 1.jpg 1.jpg">
+                <img src="./images/forkashmir 1.jpg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="./images/forkashmir 2.jpg">
+                <img src="./images/forkashmir 2.jpg" alt="">
+              </a> -->
+            <!-- </div>  <div class="grid-item">
+              <a href="./images/forbali 3.webp">
+                <img src="./images/forbali 3.webp" alt="">
+              </a>
+            </div>  <div class="grid-item">
+              <a href="./images/forbali 4.jpg">
+                <img src="./images/forbali 4.jpg" alt="">
+              </a> -->
+            <!-- </div>  <div class="grid-item">
+              <a href="./images/forkashmir 5.jpg">
+                <img src="./images/forkashmir 5.jpg" alt="">
+              </a>
+            </div>  <div class="grid-item">
+              <a href="./images/forkashmir 6.jpg">
+                <img src="./images/forkashmir 6.jpg" alt="">
+              </a>
+            </div>
+          </div>    
+          <center><button id="moreimgk"><a href="https://www.google.com/search?q=kashmir+images&sca_esv=593738602&tbm=isch&sxsrf=AM9HkKmbjcxigpIguNLCz97ThEsb6LiTOQ:1703588253982&source=lnms&sa=X&sqi=2&ved=2ahUKEwixlOPl-KyDAxXRUGwGHScxAKEQ_AUoAXoECAEQAw&biw=1536&bih=730&dpr=1.25" target="_blank">more images</a></button></center>      
+        </div>
+        <div align="right" class="colcont1-right">
+          <h1 id="kashmir">Kashmir.</h1>
+          <p>The unparalleled beauty of Kashmir offers the travellers a number of things to do. From a Shikara ride in Srinagar to trekking to the alpine lakes; from skiing in Gulmarg during the winter season to river rafting in Pahalgam; Kashmir has numerous activities for tourists that makes Kashmir tour an exciting one.</p>
+          <button><a href="https://www.makemytrip.com/holidays-india/kashmir-tourism.html" target="_blank">explore more</a></button>
+          <button><a href="https://www.makemytrip.com/holidays-india/kashmir-travel-packages.html?gclid=Cj0KCQiAkKqsBhC3ARIsAEEjuJgu4F1aAzkaxxUCZpwpTPgLKr5gmY9lkJHGO-8OdX2p9ppcZ95GekkaAtN-EALw_wcB&cmp=SEM|D|Holiday|G|Generic|DOM_India_Kashmir_Desktop|Non_Brand_Kashmir_Desktop|ETA|Regular|600103221028&s_kwcid=AL!1631!3!600103221028!p!!g!!kashmir%20tour%20packages&ef_id=Cj0KCQiAkKqsBhC3ARIsAEEjuJgu4F1aAzkaxxUCZpwpTPgLKr5gmY9lkJHGO-8OdX2p9ppcZ95GekkaAtN-EALw_wcB:G:s&gad_source=1" target="_blank">find packages</a></button>  
+      </div>
+    </div>
+      <center><h2 style="color: rgb(47, 123, 181);">things to do in <b>Kashmir</b></h2></center>
+      <div class="tdrow1">
+        <div class="tdcol1">
+          <div class="card" style="width: 25rem;">
+            <img src="https://mcmscache.epapr.in/post_images/website_350/post_23856653/full.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Stay in Houseboat</h5>
+              <p class="card-text"> These houseboats are designed in pleasant Kashmiri architecture generally having luxury bedrooms, separate dining and lounge rooms, as well as a balcony facing the lake with snow covered mountains in the horizon.</p>
+              <a href="https://www.indianholiday.com/blog/things-to-do-kashmir/" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2016/04/Gondola-Ride-in-Gulmarg.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gulmarg Gondola</h5>
+              <p class="card-text">Gulmarg is nestled at 2650 m above sea level at the base of Mount Apharwat. The gondola (cable car) extends almost to the peak of Apharwat, which is at an elevation of 3980 meters above sea level.</p>
+              <a href="https://www.indianholiday.com/blog/things-to-do-kashmir/" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://3.imimg.com/data3/NQ/VG/MY-9161221/kashmir-royal-spring-golf-tour.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Golfing in Kashmir</h5>
+              <p class="card-text">The mesmerizing locations of emerald greenery surrounded by Pine and Chinar trees is awe-inspiring.they are never fully crowded. You can completely relax and complete rounds at your pace.</p>
+              <a href="https://www.indianholiday.com/blog/things-to-do-kashmir/" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem;">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2016/04/camping-in-Kashmir.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camping in Kashmir</h5>
+              <p class="card-text">If you want to enjoy fresh air of the mountains with breathtaking views! No place will be batter from Kashmir! Actually Campers can enjoy the paradisaical beauty in the valley.</p>
+              <a href="https://www.indianholiday.com/blog/things-to-do-kashmir/" class="btn btn-primary">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+<!-- manali -->
+
+<!-- <section>
+  <div class="rowcont2">
+    <div class="colcont2-left">
+      <h1 id="manali">Manali.</h1>
+      <p>Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains.</p>
+      <button><a href="https://www.makemytrip.com/holidays-india/manali-travel-packages.html" target="_blank">explore more</a></button>
+      <button><a href="https://www.makemytrip.com/holidays-india/manali-travel-packages.html" target="_blank">find packages</a></button>
+    </div>
+    <div class="colcont2-right">
+      <div class="grid-gallery">
+        <div class="grid-item">
+          <a href="./images/formanali 1.jpg">
+            <img src="./images/formanali 1.jpg" alt="">
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./images/formanali 2.avif">
+            <img src="./images/formanali 2.avif" alt="">
+          </a> -->
+        <!-- </div>  <div class="grid-item">
+          <a href="./images/forbali 3.webp">
+            <img src="./images/forbali 3.webp" alt="">
+          </a>
+        </div>  <div class="grid-item">
+          <a href="./images/forbali 4.jpg">
+            <img src="./images/forbali 4.jpg" alt="">
+          </a> -->
+        <!-- </div>  <div class="grid-item">
+          <a href="./images/formanali 3.jpg">
+            <img src="./images/formanali 3.jpg" alt="">
+          </a>
+        </div>  <div class="grid-item">
+          <a href="./images/formanali 5.jpg">
+            <img src="./images/formanali 5.jpg" alt="">
+          </a>
+        </div>
+      </div>    
+      <center><button id="moreimgm"><a href="https://www.google.com/search?q=manali+&tbm=isch&ved=2ahUKEwiIx56zqa2DAxWOSGwGHQ8CBu4Q2-cCegQIABAA&oq=manali+&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzINCAAQgAQQigUQQxCxAzILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgUIABCABDIICAAQgAQQsQMyCggAEIAEEIoFEEMyCggAEIAEEIoFEEMyCwgAEIAEELEDEIMBOhAIABCABBCKBRBDELEDEIMBUPUKWP8oYOsqaANwAHgAgAGeBogBjxiSAQswLjYuMS41LTIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=leSKZcioFI6RseMPj4SY8A4&bih=730&biw=1536" target="_blank">more images</a></button></center>      
+    </div>
+  </div>
+  <center><h2 style="color: indigo;">things to do in <b>Manali</b></h2></center>
+  <div class="tdrow2">
+    <div class="tdcol2">
+      <div class="card" style="width: 25rem;">
+        <img src="https://i0.wp.com/himtimes.com/wp-content/uploads/2023/02/River-Rafting-on-Spiti-River-himachal-pradesh.jpg?ssl=1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">River Rafting on the Beas River</h5>
+          <p class="card-text">River rafting in Manali is one of the top things to do in Manali. The Beas River flowing through the mountain’s terrain is full of thrilling adventures. Gear up for the thrill of surviving the swift waters on a raft</p>
+          <a href="https://www.makemytrip.com/tripideas/attractions/visit-tegallalang-rice-terraces" class="btn btn-light">know more</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem;">
+        <img src="https://www.adventurush.com/wp-content/uploads/2022/07/shutterstock_1176563608.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Enjoy Birds-Eye-View While Paragliding</h5>
+          <p class="card-text">The thrill of enjoying a flight like a bird promises to awaken the true adventure enthusiast in you. In addition, witness the breathtaking view of the Dhauladhar mountain range and the meandering Beas River.</p>
+          <a href="https://www.makemytrip.com/tripideas/attractions/explore-the-ancient-temples" class="btn btn-light">know more</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem;">
+        <img src="https://d26dp53kz39178.cloudfront.net/media/uploads/products/Skiing-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Have Fun Skiing at Solang Valley</h5>
+          <p class="card-text">Manali offers an exciting rendezvous with snow skiing. Gliding down the snow-covered slope on your ski, enjoy the beautiful alpine views. Manali is one of the most sought-after adventure sports in Manali.</p>
+          <a href="https://www.makemytrip.com/tripideas/attractions/climbing-mount-batur" class="btn btn-light">know more</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem;">
+        <img src="https://images.news9live.com/h-upload/2022/11/29/586677-hidimbadevitemple1.jpg?w=1200&enlarge=true" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Visit the Hadimba Devi Temple</h5>
+          <p class="card-text">Hadimba Temple is one of the main tourist places in Manali for visitors. It is a historic temple situated around 1.5 km from Mall Road. Raja Bahadur Singh built the four-story wooden temple in 1553 in the middle of a dense forest known as Van Vihar.</p>
+          <a href="https://www.makemytrip.com/tripideas/attractions/bali-safari-marine-park" class="btn btn-light">know more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+ 
